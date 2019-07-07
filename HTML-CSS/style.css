@@ -1,0 +1,43 @@
+table, th, td {
+   border: 1px solid black;
+}
+
+span { 
+  font-weight: normal; 
+  font-style: italic
+  }
+  
+  
+.outer_content {
+    width: 75%;
+    background-color: pink;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .inner_content {
+    text-align:center;
+    margin: auto;
+    width: 75%;
+    background-color: blue
+  }
+  
+  td:nth-of-type(2) {
+    background: purple;
+    }
+    
+     td:nth-of-type(4) {
+    background: purple;
+    }
+    
+    td:nth-of-type(1) {
+    background: green;
+    }
+    td:nth-of-type(3) {
+    background: green;
+    }
+    td:nth-of-type(5) {
+    background: green;
+    }
+    
+    
