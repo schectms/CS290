@@ -1,0 +1,74 @@
+.slide-content {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://i.postimg.cc/TPWCwBcc/bckground.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    font-family:Andale Mono, monospace;}
+
+h1, .header{ 
+    font-size: 5rem;
+  color: black;
+  font-weight:bold;
+  margin-bottom:0;
+  text-align:center;
+   font-family:Andale Mono, monospace;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+   background-color:#F7F7F7;
+  }
+
+input { 
+  width:100%;
+  border: 2px solid blue; 
+  background: rgba(0, 0, 0, 0);
+  
+}
+
+form{
+  position:absolute;
+  left:40%;
+}
+
+
+::-webkit-input-placeholder{
+  color:black;
+  font-style:italic;
+ font-weight:bold;
+  font-size:1.3em;
+  text-align:center;
+ }
+ 
+ input[type=submit]{
+  background-color: black;
+  border: white;
+  color: white;
+  font-style:italic;
+  font-weight:bold;
+  font-size:1.3em;
+  text-decoration: none;
+  cursor: pointer;
+ }
+ 
+ input[type=text]:focus {
+    background-color: lightblue;
+}
+
+
+li {
+      display: inline;
+      padding: 0.5em;
+      font-weight:bold;}
+      #nav {
+        padding: 0.5em 0;}

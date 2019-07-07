@@ -1,0 +1,66 @@
+.slide-content {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://i.postimg.cc/TPWCwBcc/bckground.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    font-family:Andale Mono, monospace;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+   background-color:#F7F7F7;
+  }
+  
+  h1 {
+  font-size: 5rem;
+  color: black;
+  font-weight:bold;
+  margin-bottom:0;
+}
+
+.resume {
+	display: block;
+	max-width: 800px;
+	position: relative;
+	margin: auto;
+  height: 90vh;
+}
+
+.btn {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	font-size: 16px;
+	cursor: pointer;
+	font-size: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+/* lighten background on mouse-over */
+.btn:hover {
+	background-color: gray;
+}
+
+* {box-sizing:border-box}
+
+
+li {
+      display: inline;
+      padding: 0.5em;
+      font-weight:bold;}
+      #nav {
+        padding: 0.5em 0;}
